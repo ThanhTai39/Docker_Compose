@@ -1,0 +1,16 @@
+/.env
+/.vscode
+.DS_Store
+/buildtest
+
+# Dữ liệu MySQL (giữ cấu trúc thư mục bằng .gitkeep)
+/data/mysql/*
+!/data/mysql/.gitkeep
+
+# Các file log (giữ cấu trúc thư mục bằng .gitkeep)
+/logs/apache2/*
+!/logs/apache2/.gitkeep
+/logs/mysql/*
+!/logs/mysql/.gitkeep
+/logs/xdebug/*
+!/logs/xdebug/.gitkeep
